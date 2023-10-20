@@ -1,0 +1,50 @@
+header .headerMain {
+    background-color: #DA291C;
+}
+header .headerMain .container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    webkit-display: -webkit-flex;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: space-between;
+    -ms-flex-pack: justify;
+    position: relative;
+    height: 50px;
+}
+.container {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header .headerMain .hMainLeft {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    webkit-display: -webkit-flex;
+    display: -webkit-flex;
+    display: flex;
+    position: relative;
+}
+header .headerMain .hMainLeft .hamburguer {
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    width: 20px;
+    height: 14px;
+    cursor: pointer;
+}
